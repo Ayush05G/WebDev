@@ -24,6 +24,7 @@ body{
         background-color: #121212;
         border-radius: 1rem;
         overflow: auto;
+        padding: 0 1.5rem 0 1.5rem;
     }
 
     .player{
@@ -127,4 +128,87 @@ body{
         font-weight: 700;
         margin-top: 0.5rem;
         width: fit-content;
+    }
+
+    .dark-badge{
+        background-color: black;
+        color: white;
+    }
+
+    .sticky-nav{
+        position: sticky;
+        top: 0;
+        background-color: #121212;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0 1rem 0;
+        z-index: 10;
+    }
+
+    .sticky-nav-icons{
+        margin-left: 0.75rem;
+    }
+
+    .sticky-nav-options{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sticky-nav-options button{
+        margin-right: 1rem;
+    }
+
+   .nav-item{
+    margin-right: 1rem;
+   } 
+
+   @media (max-width: 1000px){
+       .hide{
+           display: none;
+       }
+   }
+
+   .card{
+         background-color: #232323;
+         width: 150px;
+         border-radius: 0.5rem;
+         padding: 1rem;
+         margin-left: 1.5rem;
+         margin-top: 1rem;
+   }
+
+   .cards-container{
+       display: flex;
+       flex-wrap: wrap;
+   }
+
+    .card-img{
+         width: 100%;
+         border-radius: 0.5rem; 
+    }
+
+    .card-title{
+        font-weight: 600;
+    }
+
+    .card-info{
+        font-size: 0.78rem;
+        opacity: 0.5;
+    }
+
+    .footer{
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+   
+    .line{
+        border-top: 1px solid white;
+        height: 50%;
+        width: 90%;
+        opacity: 0.4;
     }
