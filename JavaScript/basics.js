@@ -1,0 +1,26 @@
+console.log('Lets learn JavaScript basics');
+let pencil= 5;
+let eraser= 3;
+let output=`The total price of pencils and erasers is: ${pencil+eraser} rupees`;
+console.log(output);
+let a= 10;
+let b= 5;
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a/b);
+console.log(a%b);
+console.log(a**b);
+console.log(a++);
+console.log(a--);
+console.log(++a);
+console.log(--a);
+console.log(a<18);
+console.log(a>18);
+console.log(a==18);
+console.log(a!=18);
+console.log(5=='5');
+console.log(5==='5');
+console.log('a'<'A');
+console.log('b'>'a');
+
