@@ -1,40 +1,49 @@
-.body{
+body {
     text-align: center;
+    font-family: Arial, sans-serif;
 }
 
-.btn{
+.btn {
     height: 200px;
     width: 200px;
     border-radius: 20%;
     border: 10px solid black;
     margin: 2.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
 }
 
-.container{
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line-one, .line-two {
     display: flex;
     justify-content: center;
 }
 
-.yellow{
+.yellow {
     background-color: yellow;
 }
 
-.red{
+.red {
     background-color: red;
 }
 
-.green{
+.green {
     background-color: green;
 }
 
-.blue{
+.blue {
     background-color: blue;
 }
 
-.Flash{
+.flash {
     background-color: white;
 }
 
-.userflash{
-    background-color: green;
+.userflash {
+    background-color: white;
 }
